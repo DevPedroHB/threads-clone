@@ -1,10 +1,10 @@
-import { Bottombar } from "@/components/shared/Bottombar";
-import { LeftSidebar } from "@/components/shared/LeftSidebar";
-import { RightSidebar } from "@/components/shared/RightSidebar";
-import { Topbar } from "@/components/shared/Topbar";
+import { Bottombar } from "@/components/Bottombar";
+import { LeftSidebar } from "@/components/LeftSidebar";
+import { RightSidebar } from "@/components/RightSidebar";
+import { Topbar } from "@/components/Topbar";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import "../globals.css";
+import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
