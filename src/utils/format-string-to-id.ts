@@ -1,10 +1,10 @@
-interface IOptions {
+type TOptions = {
   exclude?: string[];
   prefix?: string;
   suffix?: string;
-}
+};
 
-export function formatStringToId(text: string, options?: IOptions) {
+export function formatStringToId(text: string, options?: TOptions) {
   let id = text
     .normalize("NFD")
     .replace(/[\u0300-\u036f]/g, "")
