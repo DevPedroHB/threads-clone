@@ -6,9 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "eslint src --ext .ts,.tsx --fix"
   },
   "dependencies": {
+    "@faker-js/faker": "8.0.2",
     "@hookform/resolvers": "3.2.0",
     "@types/node": "20.5.0",
     "@types/react": "18.2.20",
